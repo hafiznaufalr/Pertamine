@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activity.LoginActivity">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/top"
+            android:layout_height="250dp"
+            android:background="@drawable/bg_login"
+            android:orientation="horizontal">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/bottom"
+            android:layout_below="@id/top"
+    >
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/tv_welcome"
+                  android:text="Selamat Datang,"
+                  android:textSize="30sp"
+                  android:layout_marginTop="20dp"
+                  android:layout_marginLeft="20dp"
+                  android:textColor="@android:color/black"
+        />
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/tv_message"
+                  android:text="Masuk Sebelum Melanjutkan"
+                  android:layout_below="@id/tv_welcome"
+                  android:layout_marginLeft="20dp"
+                  android:textColor="@android:color/black"
+
+
+        />
+
+        <EditText android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginRight="20dp"
+                  android:layout_marginTop="20dp"
+                  android:id="@+id/et_email"
+                  android:layout_below="@id/tv_message"
+                  android:hint="Email"
+        />
+
+        <EditText android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginRight="20dp"
+                  android:layout_marginTop="20dp"
+                  android:id="@+id/et_password"
+                  android:layout_below="@id/et_email"
+                  android:hint="Password"
+                  android:inputType="textPassword"
+        />
+        <Button
+                android:id="@+id/btn_login"
+                android:layout_marginRight="64dp"
+                android:layout_marginLeft="64dp"
+                android:layout_marginTop="50dp"
+                android:layout_below="@id/et_password"
+                android:text="Masuk"
+                android:textColor="#FFF"
+                android:textAllCaps="false"
+                android:background="@drawable/btn_login"
+                android:textSize="22sp"
+                android:layout_width="match_parent"
+                android:layout_height="55dp" />
+
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Belum Punya Akun ? "
+                  android:id="@+id/tv_ask"
+                  android:layout_below="@id/btn_login"
+                  android:layout_marginTop="16dp"
+                  android:textColor="@android:color/black"
+                  android:textSize="15sp"
+                  android:textAlignment="center"
+
+        />
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Buat Akun"
+                  android:id="@+id/tv_regis"
+                  android:layout_below="@id/tv_ask"
+                  android:layout_marginTop="2dp"
+                  android:textColor="#16b5d7"
+                  android:textSize="15sp"
+                  android:textAlignment="center"
+
+        />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

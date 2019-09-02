@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FE2890</color>
+    <color name="colorPrimaryDark">#FE2890</color>
+    <color name="colorAccent">#FE2890</color>
+    <color name="placeholder">#dddddd</color>
+    <color name="grey_bg">#f2f2f2</color>
+</resources>
