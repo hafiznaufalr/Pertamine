@@ -14,8 +14,8 @@ B2C Ecommerce &amp; Service From Pertashop to User, Aplikasi Ini Dibuat Saat Men
 
 ## Team
 
-Muhammad Andika Tata as Ui Designer
-Yusuf Wibisono as Backend Developer
-Arya Annurseno as Backend Developer
-Hafiz Naufal Rahman as Android Developer
+* Muhammad Andika Tata as Ui Designer<br/>
+* Yusuf Wibisono as Backend Developer<br/>
+* Arya Annurseno as Backend Developer<br/>
+* Hafiz Naufal Rahman as Android Developer<br/>
 
